@@ -1,0 +1,59 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>One?</title>
+        <link href="https://cdn.jsdelivr.net/npm/picnic" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+        <link href="/assets/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <a href="/" class="brand navlink">
+                <span>One?</span>
+            </a>
+
+            <div class="menu">
+                <a href="/rulebook" class="button navlink"><img src="/assets/notebook.svg" height="15"> Rulebook</a>
+            </div>
+        </nav>
+        <main>
+            <header class="hero">
+                <div class="content">
+                    <h1>One?</h1>
+                    <small>also known as OneQ</small>
+                    <p class="slogan">A minimalist card game for <a href="https://store.steampowered.com/app/286160/Tabletop_Simulator/">Tabletop Simulator</a>.</p>
+                    <p class="links">
+                        <a href="#">Steam Workshop</a> | <a href="https://github.com/Antipraktika/OneQ">GitHub</a>
+                    </p>
+                </div>
+            </header>
+            <section>
+                <div class="flex two">
+                    <p>
+                        One? is a custom designed card game for Tabletop Simulator by <a href="https://github.com/Antipraktika/">Antipraktika</a>. Each card has been
+                        hand crafted to look elegant whilst still having a clear purpose. Designed in <a href="https://www.figma.com/">Figma</a>, the cards have a
+                        soft color palette and have either text written using the <a href="https://fonts.google.com/specimen/Noto+Sans/">Noto Sans</a> font or an
+                        icon.
+                    </p>
+                    <div class="desc-container">
+                        <div class="card-container">
+                            <div class="oneq-card" id="scroller" style="--card-x: 8; --card-y: 4;"></div>
+                        </div>
+                    </div>
+                    <div class="desc-container">
+                        some filler
+                    </div>
+                    <p>
+                        One? has scripts written specifically to make the game easier to play for those that don't know the rules. The scripts are optional, however,
+                        and can be disabled if you'd rather manually play the game or have your own custom rules in mind. If you have created a fun rule and want to
+                        have it published, feel free to open an <a href="https://github.com/Antipraktika/OneQ/issues/">issue on GitHub</a> and it may be added to the
+                        'House Rules' rulebook along with its own script to automate it (if possible).
+                    </p>
+                </div>
+            </section>
+        </main>
+        <script src="/assets/card-scroller.js"></script>
+        <script src="/assets/card-transforms.js"></script>
+    </body>
+</html>
