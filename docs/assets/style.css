@@ -76,7 +76,7 @@ section {
 
     background-image: url(decks/Claasic/OneQ_Classic_Deck.png);
     background-position: calc(var(--card-x) * var(--card-size-w) * -1) calc(var(--card-y) * var(--card-size-y) * -1);
-    background-size: calc(var(--card-size-w) * 10) calc(var(--card-size-y) * 6);
+    background-size: calc(var(--card-size-w) * 14) calc(var(--card-size-y) * 5);
     width: var(--card-size-w);
     height: var(--card-size-y);
 }
