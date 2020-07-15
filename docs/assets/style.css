@@ -70,11 +70,11 @@ section {
 }
 
 .oneq-card {
-    /* original size: 400x520 */
-    --card-size-w: 140px;
-    --card-size-y: 200px;
+    /* original size: 350x420 */
+    --card-size-w: 135px;
+    --card-size-y: 210px;
 
-    background-image: url(cards.png);
+    background-image: url(decks/Claasic/OneQ_Classic_Deck.png);
     background-position: calc(var(--card-x) * var(--card-size-w) * -1) calc(var(--card-y) * var(--card-size-y) * -1);
     background-size: calc(var(--card-size-w) * 10) calc(var(--card-size-y) * 6);
     width: var(--card-size-w);
