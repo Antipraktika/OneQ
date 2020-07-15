@@ -8,7 +8,7 @@ function scroll() {
         currentX = 0;
         currentY += 1;
 
-        if (currentY === 4) {
+        if (currentY === 5) {
             currentY = 0;
         }
     }
