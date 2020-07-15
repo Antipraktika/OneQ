@@ -4,17 +4,17 @@ let currentX = 0;
 let currentY = 0;
 
 function scroll() {
-    if (currentX === 10) {
+    if (currentX === 14) {
         currentX = 0;
         currentY += 1;
 
-        if (currentY === 6) {
+        if (currentY === 4) {
             currentY = 0;
         }
     }
 
-    if (currentY === 5 && currentX == 8) {
-        currentX = 9;
+    if (currentY === 4 && currentX == 1) {
+        currentX = 13;
     }
 
     scrollerCard.style.setProperty('--card-x', currentX);
