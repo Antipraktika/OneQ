@@ -13,7 +13,7 @@ function scroll() {
         }
     }
 
-    if (currentY === 4 && currentX == 1) {
+    if (currentY === 4 && currentX == 2) {
         currentX = 13;
     }
 
